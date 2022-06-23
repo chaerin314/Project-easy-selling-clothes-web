@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="project-easy-selling-clothes-web">
+    <meta name="keywords" content="clothes, project, easy-selling, deeplearning">
+    <meta name="developer" content="박채린, 김도은, 오서영">
+
+    <title>시옷 : 쉬운 옷 팔기 서비스</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!--(1) 메뉴-->
+    <div class="menu">
+        <!--로고 이미지 삽입-->
+        <a href="index.html"><img src="./img/logo.png" alt="시옷"></a>
+        <!--검색 구현-->
+        <input type="search" placeholder="원하는 상품을 검색해보세요">
+        <!--키워드, 로그인, 회원가입 메뉴-->
+        <a href="" id="keyword">키워드</a>
+        <a href="signin.html" id="login">로그인</a>
+        <a href="signup.html" id="signup">회원가입</a>
+    
+    </div>
+
+    <!--(2) 회원가입 텍스트와 언더라인-->
+    <div class="title">
+        <!--"회원가입" 텍스트 삽입-->
+        <h1>회원가입</h1>
+        <!--언더라인-->
+        <hr>
+    </div>
+
+    <div class="parent_box_sign">
+        <form method="post" action="afterlogin.html">
+            <p>
+                <br><br>
+                <strong>아이디</strong>
+                <input type="text" name="name" value="이름(실명)을 입력하세요" class="id-field">
+            </p>
+            <p>
+                <br>
+                <strong>비밀번호</strong>
+                <input type="text" name="password" value="영문+숫자 조합 8자리 이상 입력하세요" class="pw-field">
+            </p>
+            <div class="check">
+                <br>
+                <input type='checkbox' name='service' class="service">
+                <label for="service">이용약관, 개인정보 수집 및 이용 동의 (필수)</label>
+            </div>
+            <div class="check">
+                <br>
+                <input type='checkbox' name='age' class="age">
+                <label for="age">만 14세 이상 (필수)</label>
+            </div>
+            <br>
+            <input type="submit" value="회원가입" class="submit-btn">
+            
+            
+        </form>
+    
+    </div>
+</body>

@@ -1,0 +1,134 @@
+/**margin과 padding을 0으로 두는 기본 설정**/
+html, body {
+    margin :0;
+    padding : 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin : 0;
+    padding : 0;
+}
+
+button {
+    border : none;
+    background-color: transparent;
+}
+
+/**메뉴 관련 설정**/
+.menu {
+    position: relative;
+    height: 150px;
+    /**중앙정렬**/
+    margin: auto;
+    width: 50%;
+
+}
+/**로고 삽입**/
+.menu img {
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+}
+/**검색**/
+.menu input{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    margin: 55px 0 55px 0;
+
+}
+/**키워드, 로그인, 회원가입 메뉴**/
+
+.menu #keyword{
+    position: absolute;
+    margin: 64px 0 65px 350px;
+    white-space: nowrap;
+}
+
+.menu #login, #user {
+    position: absolute;
+    margin: 64px 0 65px 450px;
+    white-space:nowrap;
+}
+
+.menu #signup,#write {
+    position: absolute;
+    margin: 64px 0 65px 550px;
+    white-space: nowrap;
+}
+
+.title {
+    margin:auto;
+    width: 900px;
+}
+
+/**최신판매글 텍스트와 언더라인**/
+.title h1{
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 900px;
+    
+}
+
+/**판매글 올리기**/
+.write, .parent_box_sign {
+    position: relative;
+    width: 800px;
+    margin: auto;
+
+}
+/**소제목 스타일**/
+.subheading li {
+    position: relative;
+    width: 800px;
+    height: 30px;
+    margin: auto;
+    list-style: none;
+    background-color: rgba(0, 225, 255, 0.178);
+}
+
+/**등록 후 다른 옷 추가와 등록 버튼**/
+
+.regisbtn {
+    margin: 30px auto;
+    width: 800px;
+    position: relative;
+}
+
+.regisbtn #1{
+    position: relative;
+    clear: both;
+
+}
+
+.regisbtn #2 {
+    position: relative;
+    clear: both;
+
+}
+
+/**로그인과 회원가입 부모박스 중앙정렬 설정**/
+.parent_box_sign {
+    text-align: center;
+}
+
+.products {
+    margin: auto;
+    width: 900px;
+    padding:30px;
+}
+
+.products a {
+    float:left;
+}
+
+
+
+
